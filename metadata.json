@@ -2,5 +2,7 @@
   "name": "SmartFence AI — Protect Crops, Save Wildlife",
   "description": "SmartFence AI: Real-time wildlife intrusion monitoring, computer vision detection, safe automated water deterrence, and interactive 3D digital twin prototype.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
