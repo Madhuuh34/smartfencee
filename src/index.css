@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Leaflet Custom Overrides for Dark Forest-Green Theme */
+.leaflet-container {
+  background: #020617 !important;
+  font-family: inherit;
+}
+
+.custom-leaflet-tooltip {
+  background: rgba(15, 23, 42, 0.95) !important;
+  border: 1px solid rgba(16, 185, 129, 0.4) !important;
+  color: #f8fafc !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+  padding: 4px 8px !important;
+}
+
+.custom-leaflet-tooltip:before {
+  border-top-color: rgba(15, 23, 42, 0.95) !important;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07130e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e3a2f;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
